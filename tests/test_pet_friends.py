@@ -87,10 +87,8 @@ def test_add_new_pet_without_photo(name='ДружОК', animal_type='выхух�
 
     # Запрашиваем ключ api и сохраняем в переменную auth_key
     _, auth_key = pf.get_api_key(valid_email, valid_password)
-
     # Добавляем питомца
     status, result = pf.add_new_pet_without_photo(auth_key, name, animal_type, age)
-
     # Сверяем полученный ответ с ожидаемым результатом
     assert status == 200
     assert result['name'] == name
