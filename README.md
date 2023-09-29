@@ -1,5 +1,5 @@
  # 19.7.2 PetFriendsApiTests
- Проект api тестирования сервиса PetFriends.
+    Проект api тестирования сервиса PetFriends.
  Содержание проекта:
  В файле "settings.py" валидные значения email и password к учетной записи на PetFriends.
  В файле "invalid_settings.py" невалидные значения email и password.
